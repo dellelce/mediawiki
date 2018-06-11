@@ -1,3 +1,6 @@
 
 [flake8]
-ignore=E111
+ignore=
+  E114,E111,E266,
+  # D208 is evev more irritating than others
+  D208
